@@ -1,4 +1,4 @@
-# ✨ Projeto desenvolvido para estudo do CSS, promovido pelo programa START da Capgemini e elaborado pela ProWay ✨
+## ✨ Projeto desenvolvido para estudo do CSS, promovido pelo programa START da Capgemini e elaborado pela ProWay ✨
 
 • **Sintaxe CSS**:
 
@@ -17,6 +17,7 @@
     · Externo: A declaração CSS é armazenada em um arquivo externo com extensão .css e é vinculada ao documento HTML por meio da tag <link>. 
 
 • **Seletores de CSS**:
+
     ↳ São usados para aplicar estilos a elementos HTML específicos.
 
     · Class: É um atributo HTML que pode ser atribuído a um ou mais elementos e, em seguida, referenciado em um seletor CSS para aplicar um estilo a todos os elementos com a mesma classe. As classes são definidas no HTML com o atributo "class", e no CSS são referenciadas com um ponto antes do nome da classe.
@@ -78,13 +79,16 @@
          ↳ Enquanto text-transform é usado para transformar todo o texto em maiúsculas, minúsculas ou capitalizar as primeiras letras das palavras, font-variant é usado para especificar a variação da fonte, como o uso de letras maiúsculas pequenas ou outras variações disponíveis na fonte.
 
 • **Link no CSS**:
+
     ↳ Para alterar a aparência de um link é importante utilizar pseudo-seletores, que são palavras-chave que precedem os seletores CSS e que permitem selecionar elementos com base em seu estado ou posição no documento. Alguns mais utilizados são:
 
     · :hover: É acionado quando o usuário passa o mouse sobre o link
     · :active: Acionado quando o link é clicado. 
     · :visited: acionado quando o link já foi visitado pelo usuário.
 
-• **Dimensões no CSS**:
+• **Dimensões no CSS** 
+
+
    ![Modelo de Caixa](https://marcoalbasini.b-cdn.net/web/wp-content/uploads/2021/12/box-model.png)
 
     · Box-sizing: Define como o tamanho total de um elemento é calculado, levando ou não em conta a sua borda e preenchimento interno (padding). Os valores possíveis são "content-box" (tamanho total é a soma do conteúdo + borda + preenchimento) e "border-box" (tamanho total é a soma do conteúdo + preenchimento, incluindo a borda).
@@ -100,3 +104,5 @@
     · Border: Define a borda do elemento, que pode ter largura, estilo e cor definidos individualmente para cada lado. Pode ser especificado em conjunto com um único valor (que será aplicado em todos os lados) ou em formato abreviado (por exemplo, "border: 2px solid red").
 
     · Margin: Define a margem externa do elemento, isto é, a distância entre a borda do elemento e o elemento anterior ou seguinte na página. Pode ser especificado individualmente para cada lado ou em conjunto com um único valor (que será aplicado em todos os lados).
+    
+🍀
