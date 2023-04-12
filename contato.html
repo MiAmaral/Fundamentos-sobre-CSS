@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title> Contato </title>
+</head>
+
+<body>
+
+    <form > <!-- O atributo method especifica o método HTTP que será usado para enviar os dados do formulário ao servidor. -->
+        <input type="text" name="nome" placeholder="Nome" /> <br/>
+        <input type="email" name="email" placeholder="E-mail" /> <br/>
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx" /> <br/>
+        <input type="number" name="idade" placeholder="Idade" /> <br/>
+        <input type="url" name="linkedin" placeholder="LinkedIn URL" /> <br/>
+        Urgência <input type="range" name="urgencia" min=0 max=100 step=0.1> <br/>
+        <input type="checkbox" name="dia-da-semana" value=2 /> Segunda-feira <br/>
+        <input type="checkbox" name="dia-da-semana" value=4 /> Quarta-feira <br/>
+        <input type="checkbox" name="dia-da-semana" value=6 /> Sexta-feira <br/>
+        <input type="radio" name="horario" value="manha" /> Manhã <br/>
+        <input type="radio" name="horario" value="tarde" /> Tarde <br/>
+        <input type="radio" name="horario" value="noite" /> Noite <br/>
+        <textarea name="mensagem" cols=50 rows="10"></textarea> <br/>
+        <input list="cidade" name="cidade" />
+        <datalist id="cidade">
+            <option value="">Selecione a cidade</option>
+            <option value="Blumenau">Blumenau</option>
+            <option value="Joinville">Joinville</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="São Paulo">São Paulo</option>
+        </datalist> <br/>
+        <button type="button">Outra ação</button> <!-- É preciso especificar o type do botão para evitar do mesmo botão ser o de envio do formulário(default)-->
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button> <!-- outra opção é o <input type="submit"/>, mas é uma tag mais genérica-->
+    </form>
+    
+</body>
+</html>
